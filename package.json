@@ -1,0 +1,22 @@
+{
+  "name": "@tosev/ol-react",
+  "version": "1.0.0",
+  "description": "React wrapper for OpenLayers 8",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "Zoran Tošev <tosevzoran@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "ol": "^8.1.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.29",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
