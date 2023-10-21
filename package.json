@@ -2,11 +2,18 @@
   "name": "@tosev/ol-react",
   "version": "1.0.0",
   "description": "React wrapper for OpenLayers 8",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "keywords": [],
+  "keywords": [
+    "ol",
+    "openlayers",
+    "react",
+    "typescript"
+  ],
   "author": "Zoran Tošev <tosevzoran@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
@@ -14,9 +21,25 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.8.7",
     "@types/react": "^18.2.29",
     "@vitejs/plugin-react": "^4.1.0",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
-  }
+  },
+  "main": "./dist/ol-react.umd.js",
+  "module": "./dist/ol-react.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tosevzoran/ol-react"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/ol-react.es.js",
+      "require": "./dist/ol-react.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ]
 }
