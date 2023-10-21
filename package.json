@@ -1,6 +1,6 @@
 {
   "name": "@tosev/ol-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React wrapper for OpenLayers 8",
   "type": "module",
   "scripts": {
@@ -25,7 +25,8 @@
     "@types/react": "^18.2.29",
     "@vitejs/plugin-react": "^4.1.0",
     "typescript": "^5.2.2",
-    "vite": "^4.5.0"
+    "vite": "^4.5.0",
+    "vite-plugin-dts": "^3.6.0"
   },
   "main": "./dist/ol-react.umd.js",
   "module": "./dist/ol-react.es.js",
