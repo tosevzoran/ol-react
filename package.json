@@ -1,6 +1,6 @@
 {
   "name": "@tosev/ol-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React wrapper for OpenLayers 8",
   "type": "module",
   "scripts": {
